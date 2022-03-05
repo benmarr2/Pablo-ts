@@ -1,0 +1,60 @@
+{"frames": [
+
+{
+	"filename": "Double Jump (32x32)-0.png",
+	"frame": {"x":1,"y":1,"w":30,"h":26},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":3,"w":30,"h":26},
+	"sourceSize": {"w":32,"h":32}
+},
+{
+	"filename": "Double Jump (32x32)-1.png",
+	"frame": {"x":1,"y":1,"w":30,"h":26},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":3,"w":30,"h":26},
+	"sourceSize": {"w":32,"h":32}
+},
+{
+	"filename": "Double Jump (32x32)-2.png",
+	"frame": {"x":1,"y":57,"w":26,"h":30},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":2,"w":26,"h":30},
+	"sourceSize": {"w":32,"h":32}
+},
+{
+	"filename": "Double Jump (32x32)-3.png",
+	"frame": {"x":1,"y":57,"w":26,"h":30},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":2,"w":26,"h":30},
+	"sourceSize": {"w":32,"h":32}
+},
+{
+	"filename": "Double Jump (32x32)-4.png",
+	"frame": {"x":1,"y":29,"w":30,"h":26},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":30,"h":26},
+	"sourceSize": {"w":32,"h":32}
+},
+{
+	"filename": "Double Jump (32x32)-5.png",
+	"frame": {"x":1,"y":29,"w":30,"h":26},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":30,"h":26},
+	"sourceSize": {"w":32,"h":32}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "pablo_double_jump.png",
+	"format": "RGBA8888",
+	"size": {"w":32,"h":88},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:6d1e7ea6ed898fa21eef6c064a00dff1:81c7993f450d30d170e247dc7b52dc0e:6e312e201b0b581002ec764a6540a161$"
+}
+}

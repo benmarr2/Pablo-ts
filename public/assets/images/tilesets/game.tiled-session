@@ -1,0 +1,248 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "level_1/level_1.tmx",
+    "expandedProjectPaths": [
+        "level_2",
+        "C:/Users/benma/Documents/Game_TS/public/assets/tilemaps",
+        "level_3",
+        "level_4",
+        "level_1",
+        "C:/Users/benma/Documents/Game_TS/public/assets/tilemaps/level_1"
+    ],
+    "file.lastUsedOpenFilter": "All Files (*)",
+    "fileStates": {
+        "": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "C:/Users/benma/Documents/Game_TS/public/assets/tilemaps/level_1/level_1.json": {
+            "scale": 0.34416006787330317,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 1753.5445170302805,
+                "y": 200.48810550967596
+            }
+        },
+        "C:/Users/benma/Documents/Game_TS/public/assets/tilemaps/level_1/level_1.json#Tropics": {
+            "scaleInDock": 1
+        },
+        "C:/Users/benma/Documents/Game_TS/public/assets/tilemaps/level_1/level_1.json#misc": {
+            "scaleInDock": 1
+        },
+        "C:/Users/benma/Documents/Game_TS/public/assets/tilemaps/level_1/level_1.json#misic": {
+            "scaleInDock": 1
+        },
+        "C:/Users/benma/Documents/Game_TS/public/assets/tilemaps/level_1/level_1.tmx": {
+            "scale": 0.34416006787330317,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 1753.5445170302805,
+                "y": 200.48810550967596
+            }
+        },
+        "C:/Users/benma/Documents/Game_TS/public/assets/tilemaps/level_1/level_1.tmx#Tropics": {
+            "scaleInDock": 1
+        },
+        "C:/Users/benma/Documents/Game_TS/public/assets/tilemaps/level_1/level_1.tmx#misc": {
+            "scaleInDock": 1
+        },
+        "C:/Users/benma/Documents/Game_TS/public/assets/tilemaps/level_1/level_1.tmx#misic": {
+            "scaleInDock": 1
+        },
+        "level_1.tmx": {
+            "scale": 1.5,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 449.33333333333337,
+                "y": 353.33333333333326
+            }
+        },
+        "level_1.tmx#Fruit": {
+            "scaleInDock": 1
+        },
+        "level_1.tmx#grassland": {
+            "scaleInDock": 1
+        },
+        "level_1.tmx#tropics": {
+            "scaleInDock": 1
+        },
+        "level_1/level_1.json": {
+            "scale": 2,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 1759.75,
+                "y": 131.25
+            }
+        },
+        "level_1/level_1.json#Tropics": {
+            "scaleInDock": 1
+        },
+        "level_1/level_1.json#misc": {
+            "scaleInDock": 1
+        },
+        "level_1/level_1.json#misic": {
+            "scaleInDock": 1
+        },
+        "level_1/level_1.tmx": {
+            "scale": 3,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": -153.66666666666666,
+                "y": 301.3333333333333
+            }
+        },
+        "level_1/level_1.tmx#Tropics": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "level_1/level_1.tmx#beach": {
+            "scaleInDock": 1
+        },
+        "level_1/level_1.tmx#grassland": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "level_1/level_1.tmx#misc": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1
+        },
+        "level_1/level_1.tmx#misic": {
+            "scaleInDock": 0.75
+        },
+        "level_1/level_1.tmx#tropics": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1
+        },
+        "level_1_new.tmx": {
+            "scale": 1.5,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 292,
+                "y": 265.33333333333326
+            }
+        },
+        "level_1_new.tmx#fruit": {
+            "scaleInDock": 1
+        },
+        "level_1_new.tmx#tropics_entities": {
+            "scaleInDock": 1
+        },
+        "level_1_new.tmx#universal tiles": {
+            "scaleInDock": 1
+        },
+        "level_1_working.tmx": {
+            "scale": 1.5,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 237.3333333333333,
+                "y": 264
+            }
+        },
+        "level_1_working.tmx#Fruit": {
+            "scaleInDock": 1
+        },
+        "level_1_working.tmx#grassland": {
+            "scaleInDock": 1
+        },
+        "level_1_working.tmx#tropics": {
+            "scaleInDock": 1
+        },
+        "level_2/level_2.tmx": {
+            "scale": 0.75,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 560.6666666666666,
+                "y": 201.33333333333337
+            }
+        },
+        "level_2/level_2.tmx#autumn": {
+            "scaleInDock": 1
+        },
+        "level_2/level_2.tmx#misc": {
+            "scaleInDock": 1
+        },
+        "level_3/level_3.tmx": {
+            "scale": 1.0562059859154929,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 551.9756636246198,
+                "y": 200.2450306288286
+            }
+        },
+        "level_3/level_3.tmx#grassland": {
+            "scaleInDock": 1
+        },
+        "level_3/level_3.tmx#misc": {
+            "scaleInDock": 1
+        },
+        "level_4/level_4.tmx": {
+            "scale": 1.0562059859154929,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 552.4490561320165,
+                "y": 200.71842313622543
+            }
+        },
+        "level_4/level_4.tmx#misc": {
+            "scaleInDock": 1
+        },
+        "level_4/level_4.tmx#winter": {
+            "scaleInDock": 1
+        },
+        "tropics.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "untitled.tmx": {
+            "scale": 1.5,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 341.33333333333337,
+                "y": 185.33333333333334
+            }
+        },
+        "untitled.tmx#tropics": {
+            "scaleInDock": 1
+        }
+    },
+    "last.exportedFilePath": "C:/Users/benma/Documents/Documents/repos/web_project/public/assets/images/tilesets/level_1",
+    "last.imagePath": "C:/Users/benma/Documents/Documents/repos/web_project/public/assets/images/tilesets/level_1",
+    "map.height": 30,
+    "map.lastUsedExportFilter": "JSON map files (*.json)",
+    "map.lastUsedFormat": "tmx",
+    "map.layerDataFormat": null,
+    "map.tileHeight": 16,
+    "map.tileWidth": 16,
+    "map.width": 70,
+    "openFiles": [
+        "level_1/level_1.tmx"
+    ],
+    "project": "game.tiled-project",
+    "property.type": "bool",
+    "recentFiles": [
+        "level_1/level_1.tmx",
+        "level_1/level_1.json",
+        "C:/Users/benma/Documents/Game_TS/public/assets/tilemaps/level_1/level_1.tmx",
+        "C:/Users/benma/Documents/Game_TS/public/assets/tilemaps/level_1/level_1.json",
+        "level_2/level_2.tmx",
+        "level_4/level_4.tmx",
+        "level_3/level_3.tmx",
+        "untitled.tmx",
+        "level_1.tmx",
+        "level_1_working.tmx",
+        "level_1_new.tmx",
+        "tropics.tsx"
+    ],
+    "resizeMap.removeObjects": false,
+    "tileset.embedInMap": true,
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 16,
+        "width": 16
+    },
+    "tileset.type": 0,
+    "tileset.useTransparentColor": true
+}
