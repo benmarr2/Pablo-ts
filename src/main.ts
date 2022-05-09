@@ -2,7 +2,7 @@ import Phaser from 'phaser'
 import preload from './scenes/preload'
 import menu from './scenes/menu'
 import level1 from './scenes/level1'
-import UI from './scenes/ui'
+import UI from './scenes/UI'
 
 const config: Phaser.Types.Core.GameConfig = {
 	type: Phaser.AUTO,
