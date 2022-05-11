@@ -6,7 +6,8 @@ export default class Death extends Phaser.Scene
     {
         super('death')
     }
-    create(){
+    create()
+    {
         this.add.text(10, 100, "Ye a gonner", {
         fontSize: "18px",
         fontFamily: "font",
@@ -14,7 +15,6 @@ export default class Death extends Phaser.Scene
         });
         
         this.cameras.main.fadeOut(3000, 0, 0, 0)
-
         this.cameras.main.once(Phaser.Cameras.Scene2D.Events.FADE_OUT_COMPLETE, (cam, effect)=>{
             this.scene.stop('death');
             this.scene.start('menu');

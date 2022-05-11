@@ -19,23 +19,25 @@ export default class UI extends Phaser.Scene {
 
   create() {
     //STRAWB
+    events.on("strawberry_collected", this.handleStrawberry, this);
+    events.on("hit", this.handleHit, this);
+    events.on("pineapple_collected", this.handleHealthGain, this);
+    events.on("death", this.handleDeath, this)
+
     this.strawberryCount = this.add.text(200, 10, "Score: 0", {
       fontSize: "8px",
       fontFamily: "font",
       color: "#eb34cf",
     });
 
-    events.on("strawberry_collected", this.handleStrawberry, this);
-
     this.events.once(Phaser.Scenes.Events.DESTROY, () => {
       events.off("strawberry_collected", this.handleStrawberry, this);
     });
 
-    //HEART
-
     this.hearts = this.add.group({
       classType: Phaser.GameObjects.Image,
     });
+
     this.hearts.createMultiple({
       key: "heart",
       setXY: {
@@ -45,11 +47,6 @@ export default class UI extends Phaser.Scene {
       },
       quantity: 2,
     });
-
-    events.on("hit", this.handleHit, this);
-
-    //PINEAPPLE
-    events.on("pineapple_collected", this.handleHealthGain, this);
   }
 
   private handleStrawberry() {
@@ -69,10 +66,16 @@ export default class UI extends Phaser.Scene {
     console.log("hit");
   }
 
-  private handleHealthGain(value: number) {
-    this.hearts.children.each((go, idx) => {
+  private handleHealthGain() {
+    this.hearts.children.each((go) => {
       const heart = go as Phaser.GameObjects.Image;
       heart.setTexture("heart");
     });
+  }
+
+  private handleDeath(){
+    this.strawberriesCollected = 0;
+    console.log(this.strawberriesCollected)
+    console.log("hi")
   }
 }

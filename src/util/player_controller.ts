@@ -1,9 +1,10 @@
-import Phaser from "phaser";
+import Phaser, { Game, GameObjects, Sound } from "phaser";
 import StateMachine from "./state_machine";
 import ObstaclesController from "./obstacles_controller";
 
 import { eventEmitter as events } from "./eventcenter";
-import UI from "~/scenes/UI";
+import { MouseConstraint } from "matter";
+
 
 type CursorKeys = Phaser.Types.Input.Keyboard.CursorKeys;
 
@@ -80,7 +81,6 @@ export default class playerController {
         this.stateMachine.setState("bounce");
         return;
       }
-
       const gameObject = body.gameObject;
       if (!gameObject) {
         return;
@@ -131,6 +131,7 @@ export default class playerController {
     if(this.stateMachine.previousStateName == "dead"){
       return;
     }
+    this.scene.sound.stopByKey("footsteps");
     this.sprite.play("pablo_idle");
   }
   private idleOnUpdate() {
@@ -151,6 +152,8 @@ export default class playerController {
 */
   private walkOnEnter() {
     this.sprite.play("pablo_run");
+    
+    this.scene.sound.play("footsteps");
   }
 
   private walkOnUpdate() {
@@ -261,6 +264,7 @@ export default class playerController {
     this.sprite.setOnCollide(() => {})
     this.sprite.play('pablo_dead', true);
     this.scene.cameras.main.fadeOut(1000, 0, 0, 0)
+    events.emit("death")
 
     this.scene.cameras.main.once(Phaser.Cameras.Scene2D.Events.FADE_OUT_COMPLETE, (cam, effect)=>{
       this.scene.scene.stop('UI');
@@ -272,7 +276,6 @@ export default class playerController {
     this.health = Phaser.Math.Clamp(value, -1, 1);
     events.emit("health-changed", this.health);
     console.log(this.health);
-    // TODO: check for death
     if (this.health <= -1) {
       this.stateMachine.setState("dead");
     }

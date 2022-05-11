@@ -77,6 +77,7 @@ export default class preload extends phaser.Scene {
       "assets/images/items/collected/collected.png",
       "assets/images/items/collected/collected.json"
     );
+    this.load.audio('footsteps', 'assets/sound/footsteps.wav')
   }
   create() {
     this.scene.start("menu");
