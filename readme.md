@@ -4,5 +4,3 @@ Pablo is a Mario-like game that is written in typescript using the Phaser 3 fram
 
 `npm install`
 `npm start`
-
-NOTE: Movement feels bugged on Windows, it was written on linux. Need to investigate why. 
